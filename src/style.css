@@ -1,0 +1,106 @@
+.forms {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+input {
+  height: 20px;
+}
+
+.addNewGameForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+
+form > * {
+  margin: 0.5rem;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inline-forms {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.inline-forms > form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border: 3px #ddd solid;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+button {
+  color: #000;
+  font-weight: bold;
+  border: unset;
+  height: 30px;
+  font-size: 18px;
+  display: block;
+  width: 100%;
+}
+
+label {
+  display: block;
+}
+
+.add-button {
+  background-color: #2ecc71;
+  border: 2px #27ae60 solid;
+  color: #fff;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  border: 2px #c0392b solid;
+  color: #fff;
+}
+
+.update-button {
+  background-color: #3498db;
+  color: #fff;
+  border: 2px #2980b9 solid;
+}
+
+.games-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.game-card {
+  margin: 0.5rem 0.6rem;
+  flex-basis: 350px;
+}
+
+.game-name {
+  margin-bottom: 0.3rem;
+}
+
+.game-id {
+  display: block;
+  border-bottom: 2px #ddd solid;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.game-image {
+  display: block;
+  object-fit: cover;
+  height: 250px;
+}
+
+embed {
+  width: 100%;
+  height: 500px;
+}
